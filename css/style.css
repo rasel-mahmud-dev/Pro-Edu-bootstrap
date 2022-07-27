@@ -1,0 +1,32 @@
+body {
+    font-family: "Poppins" !important;
+}
+
+/* css global variable */
+
+:root {
+    --primary-color: #289BDE;
+}
+
+/* custom utility classes */
+.bg-brand {
+    background-color: var(--primary-color)
+}
+
+.text-brand {
+    color: var(--primary-color)
+}
+
+.border-brand {
+    border-color: var(--primary-color);
+}
+
+.btn-outline-brand {
+    border: 2px solid var(--primary-color);
+    transition: all .3s ease;
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--primary-color) !important;
+    color: white !important
+}
