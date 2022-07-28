@@ -25,9 +25,14 @@ body {
     color: white !important;
 }
 
-.mt-10{
+section{
     margin-top: 100px;
 }
+
+#explore_section .row{
+    background-color: #F4FAFD;
+}
+
 
 @media screen and (max-width: 768px) {
     .carousel-caption h1{
@@ -36,7 +41,7 @@ body {
     .carousel-caption p{
         font-size: 14px;
     }
-    .mt-10{
+    section{
         margin-top: 50px;
     }
 }
